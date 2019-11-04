@@ -1,0 +1,323 @@
+/* start body */
+body {
+    background-color: yellow;
+    color: black;
+    font-family: calibri, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* end body */
+
+/* start debug */
+.bg-white {
+    background-color: white;
+}
+.bg-abu {
+    background-color: rgb(58, 56, 56);
+}
+.bg-abumuda {
+    background-color: rgb(104, 100, 100);
+}
+.bg-gainsboro {
+    background-color: #d8e2dc;
+}
+.bg-mistyrose {
+    background-color: #FFE5D9;
+}
+.bg-bubblegum {
+    background-color: #FFCAD4;
+}
+.bg-parrotpink {
+    background-color: #E5989B;
+}
+.bg-mountbattenpink {
+    background-color: #9d8189;
+}
+/* end debug */
+
+/* start container */
+.containerhijau {
+    text-align: center;
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+    background-color:  #47b762   ;
+}
+.container-bg {
+    background: url("bg.jpg");
+    margin: auto;
+    overflow: auto;
+    width: 100%;
+}
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+.container-sebagian {
+    margin: 10px auto;
+    overflow: auto;
+    width: 60%;
+}
+.container-sebagian-kecil {
+    margin: 10px auto;
+    overflow: auto;
+    width: 65%;
+}
+.container-full {
+    margin: 0px auto;
+    overflow: auto;
+    width: 100%;
+}
+
+.container-high {
+    float: inherit;
+    margin: 0px auto;
+    overflow: auto;
+    height: 200px;
+}
+/* end container */
+
+/* star logo*/
+.logo {
+    text-align: center;
+}
+/* end logo*/
+
+/* star order*/
+.order {
+    text-align: center;
+    font-size: xx-large;;
+}
+/* end order*/
+
+/* star testimoni*/
+.testimoni {
+    /*float: left;*/
+    text-align: left;
+}
+/* end testimoni*/
+
+.testimoni-2 {
+    /*float: left;*/
+    text-align: right;
+}
+/* end testimoni*/
+
+
+
+
+/* start menu primer */
+.menu-primer ul {
+    text-align: center;
+    background-color: #d8e2dc;
+    border-radius: 4px;
+    box-shadow:
+        0 3px 5px -1px rgba(0,0,0,.2),
+        0 6px 10px 0 rgba(0,0,0,.14),
+        0 1px 10px 0 rgba(0,0,0,.12);
+        margin: 14px 0 14px;
+    text-decoration: none;
+}
+
+.menu-primer li {
+    /* border-right: 1px solid #6D6875; */
+    display: inline-block;
+}
+
+.menu-primer a {
+    color: #6D6875;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 8px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    float: left;
+}
+
+.menu-primer a:hover {
+    background-color: white;
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: white;
+    text-decoration: none;
+}
+/* end menu primer */
+
+/* start heading*/
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+/* end heading*/
+
+/* start jumbotron */
+.jumbotron {
+    background-color: #FFCDB2;
+    border: 1px solid #FFB4A2;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+/* end jumbotron */
+
+/* start main */
+.main-home-one {
+    float: left;
+    width: 45%;
+}
+.main-home-one-one {
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+.main-home-two {
+    float: right;
+    width: 45%;
+}
+.main-home-two-two {
+    float: right;
+    width: 50%;
+}
+.main-home-three {
+    float: left;
+    width: 49%;
+}
+.main-home-three-three {
+    float: right;
+    width: 49%;
+}
+/* end main */
+
+/* start box */
+.box-heading {
+    background-color: rgb(58, 56, 56, 0.20);
+    /*border: 1px solid rgb(58, 56, 56);*/
+    border-radius: 3px 3px 0 0;
+    margin-top: 50px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading-2 {
+    background-color: #FFCAD4;
+    /*border: 1px solid rgb(58, 56, 56);*/
+    border-radius: 3px 3px 0 0;
+    margin-top: 50px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+.box-isi {
+    background-color:  rgb(104, 100, 100, 0.10);
+    /*border: 1px solid  rgb(104, 100, 100);*/
+    border-top: 0;
+    margin-bottom: 100px;
+    padding: 10px 20px;
+}
+.box-isi-3 {
+    background-color: rgba(255, 202, 212);
+    border: 0;
+    border-top: 0;
+    margin-bottom: 100px;
+    padding: 10px 20px;
+}
+.box-isi-2 {
+    background-color: #9c8189;
+    border: 0;
+    border-top: 0;
+    margin-bottom: 100px;
+    padding: 10px 20px;
+}
+/* end box */
+
+.artikel {
+    text-align: center;
+    text-transform: uppercase;
+}
+/* container body bergambar */
+.container-tengah-coy{
+    width: 100%;
+    background-image: url(image/bg.jpg);;
+
+}
+
+/* container body bergambar end */
+/* footer start */
+.container-footer {
+    
+    float: inherit;
+    margin: 0px auto;
+    overflow: auto;
+    width: 100%;
+    display: inline-block;
+}
+.coloum-footer-1{
+    margin-top: 30px; 
+    float: left;
+    width: 30%;}
+    .coloum-footer a {
+        color: black;
+        font-size: 15px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: left;
+    }
+.coloum-footer-2{
+    margin-top: 30px; 
+    float: left;
+    width: 30%;}
+.coloum-footer-3{
+    margin-top: 30px; 
+    float: left;
+    width: 30%;}
+/* footer end */
+
+/* mepet kiri kanan start*/
+.mepet-kanan{
+    float: right;
+}
+.mepet-kiri{
+    float: left;
+}
+.tulisan-mepet-kanan {
+text-align: right;
+width: 75%;
+}
+.tulisan-mepet-kiri {
+text-align: right;
+width: 75%;;
+}
+/* mepet kiri kanan end*/

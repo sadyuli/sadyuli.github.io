@@ -1,0 +1,69 @@
+/* start body */
+body {
+    background-color: white;
+    color: black;
+    font-family: calibri, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* end body */
+
+/* start debug */
+.bg-white {
+    background-color: white;
+}
+.bg-gainsboro {
+    background-color: #d8e2dc;
+}
+.bg-mistyrose {
+    background-color: #FFE5D9;
+}
+.bg-bubblegum {
+    background-color: #FFCAD4;
+}
+.bg-parrotpink {
+    background-color: #E5989B;
+}
+.bg-mountbattenpink {
+    background-color: #9d8189;
+}
+/* end debug */
+
+/* start container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+
+.container-2 {
+    margin: 10px auto;
+    overflow: auto;
+    width: 70%;
+}
+
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+
+/* star logo*/
+.logo {
+    text-align: center;
+}
+/* end logo*/
+
+/* start menu primer */
+.menu-primer ul {
+text-align: center;
+background-color: #d8e2dc;
+border-radius: 4px;
+box-shadow:
+    0 3px 5px -1px rgba(0,0,0,.2),
+    0 6px 10px 0 rgba(0,0,0,.14),
+    0 1px 10px 0 rgba(0,0,0,.12);
+
+}
